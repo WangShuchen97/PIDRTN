@@ -1,11 +1,11 @@
-# Deep Ray Tracing Network
+# Physics-Informed Deep Ray Tracing Network
 
 ## Introduction
 In modern communication systems, a profound grasp of the Channel Impulse Response (CIR) is pivotal for optimizing the design and functionality of algorithms and systems, especially the Multiple-Input-Multiple-Output (MIMO) technology. The conventional methods of gauging and modeling these channels rely on evaluating spatial points discretely sampled, resulting in limitations in acquiring pertinent channel information across a broader expanse of the area. 
 
-To overcome these limitations, this paper embeds physical principles into data-driven deep learning models, achieving second-level regional CIR computing efficiency that is hundreds of times faster.
+To overcome these limitations, this paper embeds physical principles of electromagnetic wavefront propagation into data-driven deep learning models, achieving second-level regional CIR computing efficiency that is hundreds of times faster. 
 
-In detail, the proposed Deep Ray Tracing Network (DRTN) integrates multiple Unets encoder-decoder blocks, capturing signal propagation patterns from building maps, including two equivalent signal propagation directions in two-dimensional space and a strength correction term. Then it employs a parameter-free nonlinear signal transmission module to emulate the physical laws of signal propagation as well as accurate CIRs from limited anchor locations, which will iteratively generates CIRs for various moments within the specified region subjected to enhancement and denoising operations. Meanwhile, the DRTN-A model, which utilizes anchor data to improve model accuracy, is proposed.
+The proposed Physics-Informed Deep Ray Tracing Network (PIDRTN) integrates multiple U-shaped Network (U-net) encoder-decoder blocks, capturing the radio wave propagation within a specific region surrounded with buildings, including two equivalent signal propagation directions in two-dimensional space and a signal intensity correction term. Then it employs a parameter-free nonlinear signal transmission module to emulate the physical laws of signal propagation as well as accurate CIRs from limited anchor locations, which will iteratively generates CIRs for various moments within the specified region subjected to enhancement and denoising operations. Meanwhile, the PIDRTN-A model, which utilizes anchor data to improve model accuracy, is proposed.
 
 <br>
 <div>
@@ -41,7 +41,7 @@ Building information obtained from [OpenStreetMap](https://www.openstreetmap.org
 
 Please unzip `data.zip` and put the data `input`, `output_32`,and `output_overlap_32` in `./data` folder.
 
-Please put Pretrained models `DRTN.pth`, `DRTN-A.pth`,and `Unet.pth` in `./results/checkpoints_ddp` folder.
+Please put Pretrained models `PIDRTN.pth`, `PIDRTN-A.pth`,and `U-net.pth` in `./results/checkpoints_ddp` folder.
 
 ## Run
 
