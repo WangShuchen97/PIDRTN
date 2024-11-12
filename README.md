@@ -34,6 +34,8 @@ Linux+pytorch(GPU)
 - torchviz==0.0.2
 - tqdm==4.64.1
 
+While the code is theoretically compatible with Windows, we highly recommend running it on a Linux system to ensure consistent results.
+
 ## Datasets and Pretrained models
 - There are only two examples here, please download more data from [here](https://drive.google.com/drive/folders/1rOjZoe6gM9DRt03JC5UouguWeE6HedLi?usp=drive_link).
 
@@ -71,4 +73,4 @@ None
 ```
 
 ## Contact
-Please contact wangshuchen191@mails.ucas.ac.cn if you have any question about this work.
+Please contact wangshuchen@ucas.ac.cn if you have any question about this work.
