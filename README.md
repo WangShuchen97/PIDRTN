@@ -69,7 +69,16 @@ Please refer to  `./ResultsVisualization.py` for visualization.
 ## Citation
 Please cite our paper when you use this code.
 ```
-None
+@ARTICLE{10930692,
+  author={Wang, Shuchen and Gao, Suixiang and Yang, Wenguo and Zhang, Qiwei and Loh, Tian-Hong and Yang, Yang and Qin, Fei},
+  journal={IEEE Transactions on Wireless Communications}, 
+  title={A Physics-Informed Deep Ray Tracing Network for Regional Channel Impulse Response Estimation}, 
+  year={2025},
+  volume={24},
+  number={7},
+  pages={5811-5824},
+  keywords={Channel impulse response;Accuracy;Computational modeling;Estimation;Ray tracing;MIMO;Fading channels;Buildings;Training;Data models;Channel impulse response;physical first principles;deep learning;ray tracing;spatial diversity},
+  doi={10.1109/TWC.2025.3549498}}
 ```
 
 ## Contact
